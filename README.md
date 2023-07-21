@@ -40,7 +40,8 @@ Now, you have access to almost all the DeepD3 functionalities.
 
 ### Custom-trained Model 
 
-The custom trained model can be downloaded from the the below link of google drive.
+The model, built with TensorFlow and Keras, exhibits an architecture that comprises a single encoder and dual decoders. The input shape of this model is set to (384, 1472, 1) with the base filters being 32.
+The custom-trained Model can be downloaded from the below link on google drive.
 https://drive.google.com/file/d/1U-ZaXJyK-c5yB28xAt_iFRZupNgSIctv/view?usp=drive_link 
 
 ## Workflow
