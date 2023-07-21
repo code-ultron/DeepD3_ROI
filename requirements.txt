@@ -1,0 +1,3 @@
+deepd3
+tensorflow
+flammkuchen
