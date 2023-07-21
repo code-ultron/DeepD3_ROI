@@ -1,6 +1,3 @@
-[![DeepD3 project website](https://img.shields.io/website-up-down-green-red/https/naereen.github.io.svg)](https://deepd3.forschung.fau.de/)
-[![Documentation Status](https://readthedocs.org/projects/deepd3/badge/?version=latest)](https://deepd3.readthedocs.io/en/latest/?badge=latest)
-
 # 3D ROI Generation of dendritic spines using DeepD3
 
 This repository provides an implementation of a Dendritic Spine Detection system using the Deep3D framework. The system is capable of detecting dendritic spines and generating 3D Regions of Interest (ROIs) of these spines for further analysis.
