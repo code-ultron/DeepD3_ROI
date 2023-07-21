@@ -40,7 +40,8 @@ Now, you have access to almost all the DeepD3 functionalities.
 
 ### Custom-trained Model 
 
-
+The custom trained model can be downloaded from the the below link of google drive.
+https://drive.google.com/file/d/1U-ZaXJyK-c5yB28xAt_iFRZupNgSIctv/view?usp=drive_link 
 
 ## Workflow
 
