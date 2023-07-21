@@ -86,14 +86,14 @@ Replace `/path/to/your/downloaded/training/data` and `/path/to/your/downloaded/v
 This guide should get you started with training a deep learning model using DeepD3. If you have any questions, feel free to open an issue on this repository.
 
 
-### Model Predictions and 3D roi generation for dendritic spines
+### Model Predictions and 3D ROI generation for dendritic spines
 
 This guide will explain how to use a trained model to generate predictions on a new data stack and 3d roi generation of spines.
 We have prepared a Jupyter notebook `3Droi_generation.ipynb` in the folder `examples`. Please refer to this notebook for detailed code execution.
 
 DeepD3 Benchmark Dataset
 
-The DeepD3 Benchmark dataset is used for prediction model and performance evaluation. It was collected from the [DeepD3 Website](https://deepd3.forschung.fau.de/). This dataset contains annotated samples of dendrites and their corresponding spines, serving as an ideal testbed for the development and evaluation of the machine learning model. The dataset is used here to predict dendritic spine structures in 3D images and evaluate the performance of the model.
+The DeepD3 Benchmark dataset is used for prediction model and performance evaluation. It was collected from the [DeepD3 Website](https://deepd3.forschung.fau.de/). This dataset contains annotated samples of dendrites and their corresponding spines, serving as an ideal testbed for the development and evaluation of the machine-learning model. The dataset is used here to predict dendritic spine structures in 3D images and evaluate the performance of the model.
 
 Please make sure to download and place the dataset in the correct directory as per the file paths specified in the code. The link to the DeepD3 dataset can be found here:
 
@@ -102,7 +102,7 @@ Please make sure to download and place the dataset in the correct directory as p
 
 ### Performance evaluation
 
-This guide will explain how to use the 3d rois for performance evaluation of model. 
+This guide will explain how to use the 3D ROIs for the performance evaluation of the model. 
 We have prepared a Jupyter notebook `performance_evaluation.ipynb` in the folder `examples`. Please refer to this notebook for detailed code execution.
 
 The script utilizes techniques such as DBSCAN for initial clustering, KMeans for splitting large clusters, and distance-based thresholds to clean up clusters and merge adjacent ones. The final output is a labeled 3D scatter plot of the identified clusters and performance metrics such as Recall, Precision, and F1 Score calculated by comparing deepd3 roi results with human annotations.
@@ -110,8 +110,8 @@ The script utilizes techniques such as DBSCAN for initial clustering, KMeans for
 
 Input
 
-The script requires two input CSV files:
+The script requires two  CSV files as input:
 
 * `roidata.csv`: Contains information about the ROIs identified by the deepd3.You will get this file as the output of previous results.
 * `Annotations_and_Clusters.csv` : Contains the manually annotated data. You will get this from [DeepD3 website](https://zenodo.org/record/7590773)
-* 
+  
