@@ -61,7 +61,7 @@ Downloading Datasets
 
 ### Train DeepD3 on your own dataset
 
-We have prepared a Jupyter notebook `Training_deepd3.ipynb` in the folder `examples`. Follow the instructions to train your own deep neural network for DeepD3 use.
+We have prepared a Jupyter notebook `Training_deepd3.ipynb` in the folder `scripts`. Follow the instructions to train your own deep neural network for DeepD3 use.
 Steps we follow below:
 * Import all necessary libraries. This includes TensorFlow and other related packages.
 * Specify the paths for your training and validation datasets and prepare your datasets.
@@ -89,7 +89,7 @@ This guide should get you started with training a deep learning model using Deep
 ### Model Predictions and 3D ROI generation for dendritic spines
 
 This guide will explain how to use a trained model to generate predictions on a new data stack and 3d roi generation of spines.
-We have prepared a Jupyter notebook `3Droi_generation.ipynb` in the folder `examples`. Please refer to this notebook for detailed code execution.
+We have prepared a Jupyter notebook `3Droi_generation.ipynb` in the folder `scripts`. Please refer to this notebook for detailed code execution.
 
 DeepD3 Benchmark Dataset
 
@@ -103,7 +103,7 @@ Please make sure to download and place the dataset in the correct directory as p
 ### Performance evaluation
 
 This guide will explain how to use the 3D ROIs for the performance evaluation of the model. 
-We have prepared a Jupyter notebook `performance_evaluation.ipynb` in the folder `examples`. Please refer to this notebook for detailed code execution.
+We have prepared a Jupyter notebook `performance_evaluation.ipynb` in the folder `scripts`. Please refer to this notebook for detailed code execution.
 
 The script utilizes techniques such as DBSCAN for initial clustering, KMeans for splitting large clusters, and distance-based thresholds to clean up clusters and merge adjacent ones. The final output is a labeled 3D scatter plot of the identified clusters and performance metrics such as Recall, Precision, and F1 Score calculated by comparing deepd3 roi results with human annotations.
 
