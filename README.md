@@ -61,7 +61,7 @@ Downloading Datasets
 
 ### Train DeepD3 on your own dataset
 
-We have prepared a Jupyter notebook `Training_deepd3.ipynb` in the folder `scripts`. Follow the instructions to train your own deep neural network for DeepD3 use.
+We have prepared a Jupyter notebook `Custom_Training_deepd3.ipynb` in the folder `scripts`. Follow the instructions to train your own deep neural network for DeepD3 use.
 Steps we follow below:
 * Import all necessary libraries. This includes TensorFlow and other related packages.
 * Specify the paths for your training and validation datasets and prepare your datasets.
